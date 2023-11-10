@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Molly E Mozarella's</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:400,700,900|Press+Start+2P');
+            * {
+            box-sizing: border-box;
+            }
+            html {
+            margin: 0;
+            padding: 0;
+            }
+            body {
+            font-family: Roboto, sans-serif;
+            max-width: 48rem;
+            text-align: center; /* Changed this part! */
+            margin: 0 auto;
+            padding: 0;
+            padding-bottom: 20rem;
+            font-size: 16px;
+            background: url('https://jxjj.github.io/mollys-menu/img/space-invader.svg')
+                no-repeat bottom,
+                url('https://jxjj.github.io/mollys-menu/img/pacman.svg') no-repeat left,
+                url('https://jxjj.github.io/mollys-menu/img/shooter-eat.svg') no-repeat
+                right 15%;
+            }
+
+            :root {
+            --logo-font-size: 5.9rem;
+            --logo-margin-left: -0.06em;
+            --logo-line-height: 0.75;
+            }
+
+            /* Logo */
+            h1 {
+            font-size: var(--logo-font-size);
+            font-weight: 900;
+            line-height: 0.75;
+            margin: 1; /* Changed this! */
+            text-transform: uppercase;
+            }
+            h1 span {
+            display: block;
+            margin-bottom: 0.125rem;
+            }
+            h1 .line-1 {
+            font-size: 1.5rem;
+            font-family: 'Roboto Condensed', sans-serif;
+            margin-left: -0.05em;
+            }
+            h1 .line-2,
+            h1 .line-3 {
+            margin-left: var(--logo-margin-left);
+            }
+            h1 .and-video {
+            font-family: 'Press Start 2P', monospace;
+            font-size: 1rem;
+            line-height: 0.9;
+            margin-left: 0;
+            }
+
+            /* section headings */
+            h2 {
+            background: url('https://jxjj.github.io/mollys-menu/img/section-bg.png');
+            background-size: 100%;
+            font-size: var(--logo-font-size);
+            color: #eee;
+            text-transform: uppercase;
+            position: relative; 
+            z-index: -10;
+            margin: 1em 1em -0.75em var(--logo-margin-left);
+            line-height: var(--logo-line-height);
+            min-width: 21rem;
+            }
+
+             /* Removed h5 from here */
+            p,
+            h3,
+            h4 {
+            max-width: 80%;
+            font-size: 2rem;
+            margin: 1em auto 0.25em;
+            font-weight: bold;
+            }
+            
+            /* Added this part! */
+            h5 { 
+                font-size: 1.5rem;
+                margin: 1em auto 0.5em;
+                font-weight: bolder;
+            }
+                
+            h3 {
+            margin: 1em auto 0.25em;
+            }
+            h3 + p {
+            font-weight: normal;
+            font-size: 1.25rem;
+            margin-top: 0;
+            }
+
+            /* Added this part! */
+            header,
+            footer {
+                background-color: #eee;
+                padding-top: 0.5rem;
+                padding-bottom: 1rem;
+            }
+
+            a {
+                padding-right: 10px;
+            }
+        </style>
+    </head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="home.html">Home</a>
+                <a href="index.html">Menu</a>
+                <a href="contact.html">Contact Us</a >
+                <a href="https://www.youtube.com/watch?v=IflVaMkULxg">Cats Stealing Pizza</a>
+            </div>
+        </nav>
+    </header>
+
+<h1>Molly E Mozarella's Pizza Parlor</h1>
+
+<h2>Prices</h2>
+<p><b>Large:</b> $18 <br>
+    <b>Medium:</b> $15 <br>
+    <b>Small:</b> $12
+</p>
+
+<img src="pizza.jpg" alt="Pizza cut into slices" width="400" >
+
+<h2>Molly's Menu</h2>
+<h3>The Luau</h3>
+<p>Hawaiian smoked ham, sweet maple bacon, pineapple, cheddar and mozzarella cheese, and our famous homemade pizza sauce.</p>
+
+<h3>The Tatonka</h3>
+<p>Our signature spicy buffalo sausage, onions, green peppers, black olives, fresh tomato, and fresh mozzarella.</p>
+
+<h3>The Metropolitan</h3>
+<p>Savory Steak, onions, mushrooms, roasted green and red peppers, fresh garlic, black olives, and mozzarella and Parmesan cheese.</p>
+
+<h3>The Super Taco Mexicana</h3>
+<p>Chunky salsa sauce, lean ground beef, onions and mozzarella cheese baked in the oven and then loaded with fresh sour cream, lettuce, tomatoes, and cheddar cheese.</p>
+
+<h3>The New York City Deli</h3>
+<p>Lots of meat: Ham, Bacon, Pepperoni, and Mozzarella, with another layer of Pepperoni, Spicy Sausage, Onion and Fresh Garlic. Angioplasty not included.</p>
+
+<h3>The Hildagrun</h3>
+<p>Sausage, bacon, onions, sauerkraut with tons of fresh cheese.</p>
+
+<h3>The Cheeser Cheeser</h3>
+<p>Lots of Mozzarella, Cheddar, Parmesan, Provolone, Gouda, and Feta cheeses. Delish.</p>
+
+<h3>The Tree Hugger</h3>
+<p>Fresh organic and locally grown vegetables: green peppers, onions, tomatoes, carrots, eggplant, mushrooms, black and green olives, and basil leaf swimming with our delicious fresh garden garlic tomato sauce and made with choice of mozzarella or soy cheese.</p>
+
+<h3>The Fungo</h3>
+<p>Fresh organic and locally grown mushrooms with plentry of garlic swimming with our delicious truffle oil and made with fresh cheese.</p>
+
+<h3>The Aahanaa</h3>
+<p>Olives, Sausage, Basil covered in a delicious Italian four cheese blend</p>
+
+<footer>
+    <h4>Contact Us:</h4>
+    <a href="https://mail.google.com/mail/u/0/#inbox/abc123def456">mollys@mozarella.com</a><br>
+    <h4>Find us on:</h4><br>
+    <a href="https://www.instagram.com/?hl=en"><img src="ig icon.png" width="40"></a>
+    <a href="https://www.tiktok.com/en/"><img src="tik-tok.png" width="40"></a>
+</footer>
+
+<script async src="https://jxjj.github.io/mollys-menu/main.js"></script>
+</body>
+</html>
